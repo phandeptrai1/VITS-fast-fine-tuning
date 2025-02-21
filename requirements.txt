@@ -1,9 +1,9 @@
 Cython==0.29.21
 librosa==0.9.2
-matplotlib==3.3.1
+matplotlib==3.6.0  # Cập nhật từ 3.3.1 lên 3.6.0
 scikit-learn==1.0.2
 scipy
-numpy==1.22
+numpy==1.21  # Giảm phiên bản xuống 1.21
 tensorboard
 torch==2.1.2
 torchvision==0.16.2
@@ -13,7 +13,7 @@ pyopenjtalk-prebuilt
 jamo
 pypinyin
 jieba
-protobuf
+protobuf==3.20.3  # Cố định phiên bản protobuf
 cn2an
 inflect
 eng_to_ipa
@@ -22,5 +22,5 @@ indic_transliteration==2.3.37
 num_thai==0.0.5
 opencc==1.1.1
 demucs
-git+https://github.com/openai/whisper.git 
 gradio
+git+https://github.com/openai/whisper.git 
